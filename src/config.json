@@ -1,0 +1,12 @@
+{
+  "worldSize": 100,
+  "cellSize": 4,
+  "wait": 30,
+  "prestep": 20,
+  "colors": {
+    "birth": "rgb(139, 8, 255)",
+    "death": "rgb(92, 92, 92)",
+    "living": "black",
+    "dead": "rgba(255,255,255,.2)",
+  }
+}

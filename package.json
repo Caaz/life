@@ -1,0 +1,19 @@
+{
+  "name": "life",
+  "version": "1.0.0",
+  "description": "A simple project to test out using browserify",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "xo",
+    "build": "browserify src/main.js -o build/main.js",
+    "watch": "watchify src/main.js -o build/main.js"
+  },
+  "author": "Daniel Caaz",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.1.0"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
